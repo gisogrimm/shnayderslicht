@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<session license="CC0">
+  <!-- generated for version 0.233.2.0-bb38f5e -->
+  <scene>
+  <!-- create your scene here -->
+  <!-- 
+       <source name="in">
+         <sound>
+           <plugins>
+           </plugins>
+         </sound>
+       </source>
+       <receiver name="out" type="omni"/>
+       <facegroup name="walls" shoebox="7 11 3"/>
+    --> 
+  </scene>
+  <modules>
+    <lightctl driver="opendmxusb" device="/dev/ttyUSB0" universe="0" fps="31.5">
+      <lightscene name="oben" channels="3" master="1" layout="oben.fixtures" sendsquared="true" usecalib="false"/>
+      <lightscene name="unten" channels="3" master="1" layout="unten.fixtures" sendsquared="true" usecalib="false"/>
+      <lightscene name="front" channels="3" master="1" layout="front.fixtures" sendsquared="true" usecalib="false"/>
+      <lightscene name="wagen" channels="4" master="1" layout="wagen.fixtures" sendsquared="true" usecalib="false"/>
+    </lightctl>
+  </modules>
+</session>

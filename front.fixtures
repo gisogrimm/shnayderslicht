@@ -1,0 +1,4 @@
+<?xml version="1.0"?>
+<layout>
+  <fixture addr="60" label="lute" calibfile="qa5x.calib"/>
+</layout>

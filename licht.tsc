@@ -4,16 +4,16 @@
 
   <!-- generated for version 0.233.2.0-bb38f5e -->
   <scene>
-  <!-- create your scene here -->
-  <!-- 
-       <source name="in">
+    <!-- create your scene here -->
+    <!-- 
+	 <source name="in">
          <sound>
-           <plugins>
-           </plugins>
+         <plugins>
+         </plugins>
          </sound>
-       </source>
-       <receiver name="out" type="omni"/>
-       <facegroup name="walls" shoebox="7 11 3"/>
+	 </source>
+	 <receiver name="out" type="omni"/>
+	 <facegroup name="walls" shoebox="7 11 3"/>
     --> 
   </scene>
   <modules>
@@ -23,9 +23,18 @@
       <lightscene name="front" channels="3" master="1" layout="front.fixtures" sendsquared="true" usecalib="false"/>
       <lightscene name="wagen" channels="4" master="1" layout="wagen.fixtures" sendsquared="true" usecalib="false"/>
     </lightctl>
-  <lightcolorpicker path="/light/oben/*/hsv"/>
-  <lightcolorpicker path="/light/unten/*/hsv"/>
-  <lightcolorpicker path="/light/front/*/hsv"/>
-  <lightcolorpicker path="/light/wagen/*/hsv" color="#A88911"/>
+    <!--
+	<lightcolorpicker path="/light/oben/*/hsv"/>
+	<lightcolorpicker path="/light/unten/*/hsv"/>
+	<lightcolorpicker path="/light/front/*/hsv"/>
+	<lightcolorpicker path="/light/wagen/*/hsv"/>
+    -->
+    <mididispatch connect="US-2x2:US-2x2 MIDI 1" dumpmsg="true">
+      <notemsg channel="0" note="0" path="/runscript"><s v="taste1"/></notemsg>
+      <notemsg channel="0" note="1" path="/runscript"><s v="taste2"/></notemsg>
+      <notemsg channel="0" note="2" path="/runscript"><s v="taste3"/></notemsg>
+      <notemsg channel="0" note="3" path="/runscript"><s v="taste4"/></notemsg>
+      <notemsg channel="0" note="4" path="/runscript"><s v="taste5"/></notemsg>
+    </mididispatch>
   </modules>
 </session>

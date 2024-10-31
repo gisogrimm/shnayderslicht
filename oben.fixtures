@@ -1,4 +1,6 @@
 <?xml version="1.0"?>
 <layout>
-  <fixture addr="60" label="lute" calibfile="qa5x.calib"/>
+  <fixture addr="190" label="1"/>
+  <fixture addr="230" label="2"/>
+  <fixture addr="140" label="3"/>
 </layout>

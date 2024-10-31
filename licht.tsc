@@ -1,5 +1,7 @@
 <?xml version="1.0"?>
-<session license="CC0">
+<session duration="36000" initoscscript="" license="CC0" loop="false" scriptext=".tosc" scriptpath="">
+  
+
   <!-- generated for version 0.233.2.0-bb38f5e -->
   <scene>
   <!-- create your scene here -->
@@ -21,5 +23,9 @@
       <lightscene name="front" channels="3" master="1" layout="front.fixtures" sendsquared="true" usecalib="false"/>
       <lightscene name="wagen" channels="4" master="1" layout="wagen.fixtures" sendsquared="true" usecalib="false"/>
     </lightctl>
+  <lightcolorpicker path="/light/oben/*/hsv"/>
+  <lightcolorpicker path="/light/unten/*/hsv"/>
+  <lightcolorpicker path="/light/front/*/hsv"/>
+  <lightcolorpicker path="/light/wagen/*/hsv" color="#A88911"/>
   </modules>
 </session>

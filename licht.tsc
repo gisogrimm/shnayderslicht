@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<session duration="36000" initoscscript="" license="CC0" loop="false" scriptext=".tosc" scriptpath="">
+<session duration="36000" initoscscript="defaults" license="CC0" loop="false" scriptext=".tosc" scriptpath="">
   
 
   <!-- generated for version 0.233.2.0-bb38f5e -->
@@ -18,16 +18,16 @@
   </scene>
   <modules>
     <lightctl driver="opendmxusb" device="/dev/ttyUSB0" universe="0" fps="31.5">
-      <lightscene name="oben" channels="3" master="1" layout="oben.fixtures" sendsquared="true" usecalib="false"/>
-      <lightscene name="unten" channels="3" master="1" layout="unten.fixtures" sendsquared="true" usecalib="false"/>
-      <lightscene name="front" channels="3" master="1" layout="front.fixtures" sendsquared="true" usecalib="false"/>
-      <lightscene name="wagen" channels="4" master="1" layout="wagen.fixtures" sendsquared="true" usecalib="false"/>
+      <lightscene name="oben" channels="3" master="1" layout="oben.fixtures" sendsquared="false" usecalib="false"/>
+      <lightscene name="unten" channels="3" master="1" layout="unten.fixtures" sendsquared="false" usecalib="false"/>
+      <lightscene name="front" channels="3" master="1" layout="front.fixtures" sendsquared="false" usecalib="false"/>
+      <lightscene name="wagen" channels="4" master="1" layout="wagen.fixtures" sendsquared="false" usecalib="false"/>
     </lightctl>
+	<lightcolorpicker path="/light/wagen/*/hsv"/>
     <!--
 	<lightcolorpicker path="/light/oben/*/hsv"/>
 	<lightcolorpicker path="/light/unten/*/hsv"/>
-	<lightcolorpicker path="/light/front/*/hsv"/>
-	<lightcolorpicker path="/light/wagen/*/hsv"/>
+	<lightcolorpicker path="/light/front/1/hsv"/>
     -->
     <mididispatch connect="US-2x2:US-2x2 MIDI 1" dumpmsg="true">
       <notemsg channel="0" note="0" path="/runscript"><s v="taste1"/></notemsg>
@@ -36,5 +36,6 @@
       <notemsg channel="0" note="3" path="/runscript"><s v="taste4"/></notemsg>
       <notemsg channel="0" note="4" path="/runscript"><s v="taste5"/></notemsg>
     </mididispatch>
+    <mididispatch name="lp" connect="Launchpad X:1" dumpmsg="true"/>
   </modules>
 </session>

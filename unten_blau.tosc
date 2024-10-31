@@ -1,4 +1,3 @@
-/light/oben/*/hsv 240 1 1 1
 /light/unten/*/hsv 240 1 1 1
 /lp/send/note 0 11 41
 /lp/send/note 0 12 41
@@ -8,11 +7,3 @@
 /lp/send/note 0 16 41
 /lp/send/note 0 17 41
 /lp/send/note 0 18 41
-/lp/send/note 0 21 41
-/lp/send/note 0 22 41
-/lp/send/note 0 23 41
-/lp/send/note 0 24 41
-/lp/send/note 0 25 41
-/lp/send/note 0 26 41
-/lp/send/note 0 27 41
-/lp/send/note 0 28 41

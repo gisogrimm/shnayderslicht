@@ -1,6 +1,11 @@
 <?xml version="1.0"?>
 <layout>
-  <fixture addr="190" label="1"/>
-  <fixture addr="230" label="2"/>
-  <fixture addr="140" label="3"/>
+  <fixture addr="140" label="1"/>
+  <fixture addr="180" label="2"/>
+  <fixture addr="190" label="3"/>
+  <fixture addr="260" label="4"/>
+  <fixture addr="110" label="5"/>
+  <fixture addr="270" label="6"/>
+  <fixture addr="230" label="7"/>
+  <fixture addr="240" label="8"/>
 </layout>

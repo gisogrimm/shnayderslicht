@@ -20,6 +20,8 @@
 /lp/add/launchpadaction 52 1 127 1 1 oben_aus
 /lp/add/launchpadaction 63 1 127 23 21 oben_gruen
 /lp/add/launchpadaction 53 1 127 1 1 oben_aus
+/lp/add/launchpadaction 64 1 127 1 1 oben_weiss
+/lp/add/launchpadaction 54 1 127 1 1 oben_aus
 
 /lp/add/launchpadaction 41 1 127 43 41 unten_blau
 /lp/add/launchpadaction 31 1 127 1 1 unten_aus
@@ -27,6 +29,8 @@
 /lp/add/launchpadaction 32 1 127 1 1 unten_aus
 /lp/add/launchpadaction 43 1 127 23 21 unten_gruen
 /lp/add/launchpadaction 33 1 127 1 1 unten_aus
+/lp/add/launchpadaction 44 1 127 1 1 unten_weiss
+/lp/add/launchpadaction 34 1 127 1 1 unten_aus
 
 /lp/add/launchpadaction 78 1 127 1 1 alles_aus
 /lp/add/launchpadaction 88 1 127 61 61 wagen_an

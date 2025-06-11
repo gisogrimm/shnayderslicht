@@ -1,0 +1,22 @@
+#/light/oben/1/hsv 24 1 1 1
+#/light/oben/3/hsv 24 1 1 1
+#/light/oben/5/hsv 24 1 1 1
+#/light/oben/7/hsv 24 1 1 1
+#/light/oben/2/hsv 0 1 1 1
+#/light/oben/4/hsv 0 1 1 1
+#/light/oben/6/hsv 0 1 1 1
+#/light/oben/8/hsv 0 1 1 1
+#/light/unten/8/hsv 20 1 1 1
+#/light/unten/3/hsv 20 1 1 1
+#/light/unten/4/hsv 20 1 1 1
+#/light/unten/7/hsv 20 1 1 1
+#/light/unten/2/hsv 0 1 1 1
+#/light/unten/5/hsv 0 1 1 1
+#/light/unten/6/hsv 0 1 1 1
+#/light/unten/1/hsv 0 1 1 1
+#/light/front/1/hsv 0 0.99 1 1
+#/light/front/2/hsv 20 0.99 1 1
+#/light/front/3/hsv 0 0.99 1 1
+#/light/front/4/hsv 20 0.99 1 1
+
+<alles_aus

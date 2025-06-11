@@ -1,2 +1,7 @@
-<dusche_an
-<stage_an3
+/light/front/*/hsv 42 0.82 1 4
+<unten_blau
+<wagen_an
+#/light/oben/*/hsv 0 0 0 4
+#/light/unten/*/hsv 0 0 0 4
+#<stage_an3
+#

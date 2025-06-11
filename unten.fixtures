@@ -1,5 +1,12 @@
 <?xml version="1.0"?>
 <layout>
+  <fixture addr="45" label="1"/>
+  <fixture addr="15" label="2"/>
+  <fixture addr="220" label="3"/>
+  <fixture addr="35" label="4"/>
+  <fixture addr="25" label="5"/>
+  <fixture addr="55" label="6"/>
+  <!--
   <fixture addr="220" label="1"/>
   <fixture addr="200" label="2"/>
   <fixture addr="210" label="3"/>
@@ -8,4 +15,5 @@
   <fixture addr="120" label="6"/>
   <fixture addr="160" label="7"/>
   <fixture addr="130" label="8"/>
+-->
 </layout>

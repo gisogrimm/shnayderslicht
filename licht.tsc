@@ -18,13 +18,15 @@
   </scene>
   <modules>
     <lightctl driver="opendmxusb" device="/dev/ttyUSB0" universe="0" fps="31.5">
+      <!--
       <lightscene name="oben" channels="3" master="1" layout="oben.fixtures" sendsquared="false" usecalib="false"/>
+      -->
       <lightscene name="unten" channels="3" master="1" layout="unten.fixtures" sendsquared="false" usecalib="false"/>
       <lightscene name="front" channels="3" master="1" layout="front.fixtures" sendsquared="false" usecalib="false"/>
       <lightscene name="wagen" channels="4" master="1" layout="wagen.fixtures" sendsquared="false" usecalib="false"/>
     </lightctl>
-	<lightcolorpicker path="/light/wagen/*/hsv"/>
     <!--
+	  <lightcolorpicker path="/light/wagen/*/hsv"/>
 	<lightcolorpicker path="/light/oben/*/hsv"/>
 	<lightcolorpicker path="/light/unten/*/hsv"/>
 	<lightcolorpicker path="/light/front/1/hsv"/>
@@ -35,7 +37,12 @@
       <notemsg channel="0" note="2" path="/runscript"><s v="taste3"/></notemsg>
       <notemsg channel="0" note="3" path="/runscript"><s v="taste4"/></notemsg>
       <notemsg channel="0" note="4" path="/runscript"><s v="taste5"/></notemsg>
+      <notemsg channel="0" note="5" path="/runscript"><s v="taste6"/></notemsg>
+      <notemsg channel="0" note="6" path="/runscript"><s v="taste7"/></notemsg>
+      <ccmsg channel="0" param="1" min="50" max="120" path="/runscript"><s v="taste8"/></ccmsg>
     </mididispatch>
+    <!--
     <mididispatch name="lp" connect="Launchpad X:1" dumpmsg="true"/>
+    -->
   </modules>
 </session>

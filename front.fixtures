@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <layout>
   <fixture addr="10" label="1"/>
-  <fixture addr="40" label="2"/>
-  <fixture addr="50" label="3"/>
+  <fixture addr="50" label="2"/>
+  <fixture addr="40" label="3"/>
   <fixture addr="20" label="4"/>
 </layout>

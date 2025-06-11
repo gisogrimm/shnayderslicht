@@ -1,6 +1,6 @@
-/light/front/*/hsv 180 0.9 0.1 1
+/light/front/*/hsv 240 1 0.2 1
 <wagen_an
 <dusche_aus
-/light/oben/*/hsv 180 1 1 3
 ,1
-/light/front/*/hsv 42 0.82 1 120
+/light/oben/*/hsv 240 1 0.2 1
+/light/front/*/hsv 24 0.99 1 120
